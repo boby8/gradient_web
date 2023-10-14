@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    height: 50vh; /* Adjust the height as needed */
+    background-image: url('./assets/gradientBg.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .header-container{
+    padding: 30px 65px;
+  }
