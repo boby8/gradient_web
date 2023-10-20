@@ -1,0 +1,116 @@
+.bannerCenter {
+  color: white; /* Adjust the font size as needed */
+  margin-top: 24vh;
+}
+
+.textWithGradient {
+  background: linear-gradient(
+    91deg,
+    #c6f1f7 -4.01%,
+    #f983e9 36.14%,
+    #b877ff 77.44%,
+    #c2e9cd 106.11%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  margin: 0;
+}
+
+.boostBrand {
+  position: absolute;
+  top: 79%;
+  left: 20%;
+}
+
+.headerBottom {
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.middleContainer {
+  background-color: #111;
+  padding: 50px 60px;
+  color: #ffffff;
+}
+
+.block {
+  background: #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 65%;
+}
+
+.blockContainer {
+  width: 25%;
+  /* background: green; */
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.discription {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 85%;
+}
+
+.firstWrapper {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.listDiscription {
+  background-image: url("../assets//Rectangle.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 50px 30px 10px 50px;
+}
+
+.listWrapper {
+  padding: 60px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.clientsWrapper {
+  padding: 30px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listText {
+  color: #e4e4e4;
+  font-family: Inter Tight;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.listNumber{
+  color: #FFF;
+font-family: Unbounded;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.helpingContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+}
