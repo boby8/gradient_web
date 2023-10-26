@@ -1,6 +1,10 @@
 .bannerCenter {
-  color: white; /* Adjust the font size as needed */
+  display: flex;
+  color: white;
   margin-top: 24vh;
+  flex-direction: column;
+  gap: 30px;
+
 }
 
 .textWithGradient {
